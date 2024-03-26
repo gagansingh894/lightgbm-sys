@@ -1,0 +1,13 @@
+[package]
+name = "lightgbm-sys"
+version = "0.1.0"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+libc = "0.2.81"
+
+
+[build-dependencies]
+bindgen = "0.69.4"
+cmake = "0.1"
